@@ -1,0 +1,375 @@
+/*--общие настройки--*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3 {
+		margin: 0;
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 700;
+}
+
+.container { 
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*--раздел заголовок--*/
+.header {
+			background: #4dbcfc;
+			/*padding: 62px 375px 375px 375px;
+			/*padding-top: 100px;
+			padding-bottom: 225px;*/
+			background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+			background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+			background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+			background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+			background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1);
+			padding-top: 60px;
+			/*padding-bottom: 145px;*/
+			color: white;
+}
+
+.header_block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dream {
+	padding-top: 150px;
+	/*width: 560px;*/
+}
+
+.title {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.65em;
+}
+
+.title span {
+	font-size: 200%;
+}
+
+.promise {
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 45px;
+	line-height: 1.65em;
+}
+
+
+/* .animated {
+	opacity: 0;
+} */
+
+.red {
+	color:  red;
+}
+
+/*--рисунок--*/
+.travel {
+	padding-top: 60px;
+	padding-left: 80px;
+}
+
+/*--кнопка Двигаться к мечте--*/
+.botton {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	background: #ffd429;
+	color: black;
+	display: block;
+	width: 220px;
+	padding: 25px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+/*--секция1--*/
+.future_sect{
+	padding-top: 110px;	
+	padding-bottom: 120px;
+}
+
+.title_head {
+	text-align: center;
+}                         
+
+.future_blocks {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.blocks{
+	width: 280px;
+	background: url('../img/b2_time.png')  no-repeat center top;
+	padding-top: 120px;
+}
+
+.block_title {
+	text-align: center;        
+}
+
+.block_text {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.block_palm {
+	width: 265px;
+	background: url('../img/b2_palm.png') no-repeat center top;
+}
+
+.block_rocket {
+	background: url('../img/b2_rocket.png') no-repeat center top;
+}
+
+/*--секция2--*/
+.order_sect {
+	background: #ecf3f8;
+	padding-top: 110px;
+	padding-bottom: 105px;
+	text-align: center;
+	}
+
+.form {
+	margin-top: 40px;
+}
+
+.input {
+	width: 345px;
+	height: 50px;
+	border: 1px solid #bbbbbb;
+	font-family: 'Ubuntu', sans-serif;
+	color: #85828c;
+	font-size: 15px;
+	padding-left: 25px;
+	margin-top: 15px;
+	/*padding: 15px 0;*/
+	display: block;
+	margin: 0 auto;
+}
+
+.btn {
+	/*margin-top: 15px;*/
+	border: 0;
+	cursor: pointer;
+	width: 345px;
+	margin: 0 auto;
+}
+
+
+/*--подвал--*/
+footer {
+	background: #164d7a;
+	color: white;
+	text-align: center;
+	padding: 65px 0;
+}
+
+.copy {
+	font-size: 14px;
+}
+
+
+/*Responsive*/
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+/*начало*/
+	.header_block {
+		flex-direction: column;
+	}
+	.dream {
+		padding-top: 50px;
+	}
+	.title {
+		width: 100%;
+	}
+	.promise {
+		width: auto;
+	}
+	.travel {
+		display: block;
+	   width: 549px;
+	 }
+	
+	.future_blocks {
+		flex-direction: column;
+		margin-top: 80px;
+	}
+	.blocks {
+		width: auto;
+		margin-bottom: 80px;
+	}
+	.botton {
+		margin-left: 0;
+	   width: 100%;
+	   border: 2px solid brown;
+	   border-radius: 40px;
+	   background: rgba(241,231,103,1);
+		background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+		background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+	}
+	.order_sect {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+	.btn {
+		width: 48%;
+	   margin: auto;
+	   display: block;
+ 	} 
+/*конец*/
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+/*начало*/
+	.title {
+		width: 80%;
+	}
+	.travel {
+		width: 80%;
+		padding: 25px 50px 0px 50px;
+	}
+
+	.future_sect {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+	.future_blocks {
+		flex-direction: column;
+		margin-top: 0px;
+	}
+	.blocks {
+		width: auto;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	.botton {
+		margin-left: 0;
+	   /*margin-top: 15px;*/
+	   width: 100%;
+	   border: 2px solid brown;
+	   border-radius: 40px;
+	   background: rgba(241,231,103,1);
+		background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+		background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0);
+	}
+	.input {
+		width: 100%;
+		display: block;
+	}
+	
+	.btn {
+		width: 100%;
+	   margin: auto;
+	  	display: block;	
+	 	border: none;
+	 	border-radius: 0px;
+	}
+	.footer {
+		padding: 40px 0;
+	}
+/*конец*/	
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+/*начало*/
+	.title{
+		width: 60%;
+	}
+	.travel {
+		width: 80%;
+		/* padding: 25px 50px 0px 50px; */
+	}
+	.future_sect {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.future_blocks {
+		flex-direction: column;
+		margin-top: 0px;
+	}
+	.blocks {
+		width: auto;
+		margin-top: 40px;
+		margin-bottom: 0px;
+	}
+	.botton {
+		margin-left: 0;
+	   /*margin-top: 15px;*/
+	   width: 100%;
+	   border: 2px solid brown;
+	   border-radius: 40px;
+	   background: rgba(241,231,103,1);
+		background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+		background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0);
+	}
+
+	.input {
+		width: 100%;
+		display: block;
+		
+	}
+	.btn {
+		width: 100%;
+	   margin: auto;
+	  	display: block;
+	  	
+	 }
+	 .footer {
+		padding: 40px 0;
+	}
+/*конец*/
+
+}
