@@ -7,3 +7,46 @@ html {
 font-family: 'Merriweather', serif;
 font-family: 'PT Sans Caption', sans-serif;
 */
+/* Стили header */
+.header {
+  background-color: #183246;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-size: cover;
+
+  height: 100vh;
+  color: white;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+/* Стили текста header */
+.header__title {
+  font-size: 56px;
+  margin-bottom: 30px;
+  font-family: "Merriweather", serif;
+  margin-top: -50px;
+}
+
+.header__slogan {
+  font-size: 28px;
+  line-height: 1.5;
+  /* line-height: 42px; */
+}
+
+.header__arrow {
+  font-size: 48px;
+  width: 60px;
+  height: 50px;
+  margin-left: -30px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+}
