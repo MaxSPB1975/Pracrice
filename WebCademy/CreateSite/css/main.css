@@ -35,7 +35,7 @@ body {
   background-image: url("../img/bg-header.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  border-size: cover;
+  background-size: cover;
 
   height: 100vh;
   color: white;
