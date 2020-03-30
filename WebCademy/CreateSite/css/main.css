@@ -4,10 +4,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
-/* img {
+img {
   display: inline-block;
-} */
-
+}
+a {
+  transition: 0.2s ease-out;
+}
 /* GRID */
 .container {
   width: 1140px;
@@ -28,7 +30,7 @@ body {
 .col-4:last-child {
   margin-right: 0px;
 }
-
+/* HEADER */
 /* Стили header */
 .header {
   background-color: #183246;
@@ -72,7 +74,117 @@ body {
   bottom: 50px;
   left: 50%;
 }
+/* \\ HEADER // */
+/* / / PORTFOLIO-SINGLE-PAGE \ \ */
+.portfolio-single-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.portfolio-single-page img {
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: auto;
+}
 
+/* / / кнопки Вернуться назад \ \ */
+.button-back {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+
+  display: inline-block;
+
+  border: 2px solid #f9db59;
+  border-radius: 50px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-bottom: 13px;
+  transition: 0.2s ease-out;
+}
+.button-back:hover {
+  color: #fff;
+  background-color: #f9db59;
+}
+.button-bck-pizza {
+  font-weight: 700;
+  text-decoration: none;
+  color: #e5232b;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+
+  display: inline-block;
+
+  border: 2px solid #e5232b;
+  border-radius: 50px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-bottom: 13px;
+  transition: 0.2s ease-out;
+}
+.button-bck-pizza:hover {
+  color: #fff;
+  background-color: #e5232b;
+}
+
+.button-bck-wayup {
+  font-weight: 700;
+  text-decoration: none;
+  color: #174d7c;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+
+  display: inline-block;
+
+  border: 2px solid #174d7c;
+  border-radius: 50px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-bottom: 13px;
+  transition: 0.2s ease-out;
+}
+.button-bck-wayup:hover {
+  color: #fff;
+  background-color: #174d7c;
+}
+
+.button-bck-prtfol {
+  font-weight: 700;
+  text-decoration: none;
+  color: #071635;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+
+  display: inline-block;
+
+  border: 2px solid #071635;
+  border-radius: 50px;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 23px;
+  padding-right: 23px;
+  margin-bottom: 13px;
+  transition: 0.2s ease-out;
+}
+.button-bck-prtfol:hover {
+  color: #fff;
+  background-color: #071635;
+}
+/* \\ кнопки Вернуться назад // */
+/* \\ PORTFOLIO-SINGLE-PAGE // */
+/* / / PORTFOLIO \ \ */
 /* Стили Portfolio */
 .portflio {
   padding-top: 70px;
@@ -115,8 +227,9 @@ body {
   margin-top: 0;
   margin-bottom: 15px;
 }
+/* \\ PORTFOLIO // */
 
-/* FOOTER */
+/* / / FOOTER \ \ */
 
 .footer {
   background-color: #061634;
@@ -174,9 +287,11 @@ p.footer__icons a:hover {
   padding-left: 23px;
   padding-right: 23px;
   margin-bottom: 13px;
+  transition: 0.2s ease-out;
 }
 
 .button:hover {
   color: #061634;
   background-color: #fff;
 }
+/* \\ FOOTER // */
