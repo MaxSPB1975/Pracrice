@@ -10,6 +10,8 @@ img {
 }
 a {
   transition: 0.2s ease-out;
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -81,6 +83,11 @@ a {
   bottom: 50px;
   left: 50%;
 }
+.header__arrow > a {
+  text-decoration: none;
+  color: #fff;
+}
+
 /* \\ HEADER // */
 /* / / PORTFOLIO-SINGLE-PAGE \ \ */
 .portfolio-single-page {
@@ -238,6 +245,12 @@ a {
 .portfolio-item_text p {
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+.portfolio-item_text p > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
 }
 /* \\ PORTFOLIO // */
 
