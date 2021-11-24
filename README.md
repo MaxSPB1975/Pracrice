@@ -3,10 +3,10 @@
 
 ## Структура репозитория
 
-*[TypeVerstal](/TypeVerstal) - проекты с курсов Анны Блок
+[TypeVerstal](/TypeVerstal/Burgery/site/index.html) - проект Бургеры
 
-//[Архивы_Макетов](/Архивы_Макетов) - архивы с учебными макетами
-//[GloAcademy](/GloAcademy/SpaceX) - проект GloAcademy
+Архивы_Макетов - архивы с учебными макетами
+GloAcademyGloAcademy/SpaceX - проект GloAcademy
 WayUP - проекты с курса WayUP
 
 WebCademy
