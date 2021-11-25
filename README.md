@@ -4,7 +4,9 @@
 ## Структура репозитория
 
 [Анна Блок - Бесплатный  интенсив.Бургеры](/TypeVerstal/Burgery/site/index.html) - проект Бургеры
+
 [Анна Блок - СуперСтарт.Helloween](/TypeVerstal/SuperStart/helloween/index.html) - проект Helloween
+
 [Анна Блок - Бесплатный  интенсив.Пицца](/TypeVerstal/Pizza/index.html) - проект Пицца 
 [GloAcademy - Бесплатный  интенсив.SpaceX](/GloAcademy/SpaceX/index.html) - проект SpaceX
 [WayUP - Бесплатный  интенсив. Burning Man](/WayUP/BurningMan/index.html) - проект Burning man
