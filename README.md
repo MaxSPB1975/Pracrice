@@ -11,7 +11,7 @@
   * [GloAcademy - Бесплатный  интенсив.SpaceX](/GloAcademy/SpaceX/index.html) - проект SpaceX
 3. WayUP
   * [WayUP - Бесплатный  интенсив. Burning Man](/WayUP/BurningMan/index.html) - проект Burning man
-  * [WayUP - Бесплатный  интенсив. Начало](/WayUP/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE/%D0%98%D1%82%D0%BE%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9%D0%A1%D0%B0%D0%B9%D1%82/index.html) - проект Начало
+  * [WayUP - Бесплатный  интенсив. Начало](/WayUP/VerstkaBegin/Site/index.html) - проект Начало
 4. WebCademy
   * [WebCademy - Бесплатный интенсив. Портфолио](/WebCademy/CreateSite/index.html) - проект портфолио с WebCademy
   * [WebCademy - Бесплатный интенсив. Juice](/WebCademy/Juice/index.html) - проект Juice
